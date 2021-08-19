@@ -10,10 +10,10 @@ function App() {
         <Navigation />
         <Switch>
           <Route path="/" exact component={() => <Home />} />
-          <Route path="/about" exact component={() => <About />} />
-          <Route path="/portfolio" exact component={() => <Portfolio />} />
-          <Route path="/resume" exact component={() => <Resume />} />
-          <Route path="/contact" exact component={() => <Contact />} />
+          <Route path="/about" exact component={() => <About title={"About"}/>} />
+          <Route path="/portfolio" exact component={() => <Portfolio title={"Portfolio"}/>} />
+          <Route path="/resume" exact component={() => <Resume title={"Resume"}/>} />
+          <Route path="/contact" exact component={() => <Contact title={"Contact"}/>} />
         </Switch>
         <Footer />
       </Router>

@@ -1,12 +1,12 @@
 import React from "react";
 
-function Resume() {
+function Resume(props) {
   return (
     <div>
       <div className="container">
         <div className="row">
             <div className="col">
-                <h1>Resume</h1>
+                <h1>{props.title}</h1>
                 <hr/>
                 <h2>Experience</h2>
             </div>
