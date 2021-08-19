@@ -2,10 +2,10 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="footer">
-      <footer class="py-5 fixed-bottom">
-        <div class="container">
-          <p class="m-0 text-center text-white">
+    <div classNameName="footer">
+      <footer className="py-5 fixed-bottom">
+        <div className="container">
+          <p className="m-0 text-center text-white">
             Copyright &copy; Alex DaRe 2020
           </p>
         </div>
