@@ -21,6 +21,8 @@ function Portfolio(props) {
         description={"An all in one educational platform with course options and an instant messenger application."}
         img={"/assets/grademy_screenshot.png"}
         alt={"Grademy screenshot"}
+        app={"https://grademy.herokuapp.com/"}
+        github={"https://github.com/aldare93/grademy"}
       />
     </div>
   );

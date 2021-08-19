@@ -11,6 +11,7 @@ function LImageRText(props) {
             <div className="col-lg-5 col-md-4 col-xs-12 my-auto description">
                 <h4>{props.title}</h4>
                     <p>{props.description}</p>
+                    <p><a href={props.app}>View app</a> <a href={props.github}>Github Repo</a></p>
             </div>
         </div>
     </div>
