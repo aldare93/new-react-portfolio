@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -9,7 +10,7 @@ function Home() {
                 <br />
                 <p>I'm an aspiring web developer, amaeteur photographer, maker of surfboards and musician.</p>
                 <p>Currently, I'm employeed at <a href="http://www.atlassian.com">Atlassian</a>, an Australian software company.</p>
-                <p>If you'd like, feel free to <a href="./about.html">learn more about me</a>, <a href="./resume.html">check out my resume</a>, or even <a href="./contact.html">reach out</a>. I look forward to hearing from you!</p>
+                <p>If you'd like, feel free to <Link to="/about">learn more about me</Link>, <Link to="/resume">check out my resume</Link>, or even <Link to="/contact">reach out</Link>. I look forward to hearing from you!</p>
              </div>
         </div>
     </div>
