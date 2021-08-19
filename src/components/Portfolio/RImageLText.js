@@ -10,7 +10,7 @@ function RImageLText(props) {
             </div>
 
             <div class="col-lg-7 col-md-8 col-xs-12 weather-image">
-                <img src={props.img} class="screenshot" width="100%" />
+                <img src={props.img} alt={props.alt} class="screenshot" width="100%" />
             </div>
         </div>
     </div>

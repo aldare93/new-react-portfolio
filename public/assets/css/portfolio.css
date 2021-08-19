@@ -1,0 +1,58 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.portfolio {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.screenshot {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row {
+    display: flex;
+}
+
+.bottom {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 767px){
+    .description {
+        padding-top: 25px;
+    }
+    
+    .weather {
+        margin-top: 50px;
+    }
+
+    .portfolio {
+        margin-top: 25px;
+    }
+
+    .weather-image {
+        order: 0;
+    }
+
+   .weather-description {
+        order: 1;
+    }
+
+    .bottom {
+        margin-bottom: 0px;
+    }
+}

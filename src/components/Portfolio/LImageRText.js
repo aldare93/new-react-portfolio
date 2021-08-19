@@ -5,7 +5,7 @@ function LImageRText(props) {
     <div className="container portfolio">
         <div className="row h-100">
             <div className="col-lg-7 col-md-8 col-xs-12">
-                <img src={props.img} className="screenshot" width="100%" />
+                <img src={props.img} alt={props.alt} className="screenshot" width="100%" />
             </div>
   
             <div className="col-lg-5 col-md-4 col-xs-12 my-auto description">
