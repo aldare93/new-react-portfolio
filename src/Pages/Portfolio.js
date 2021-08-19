@@ -16,6 +16,7 @@ function Portfolio(props) {
               </div>
           </div>
       </div>
+
       <RImageLText 
         title={"Grademy"} 
         description={"An all in one educational platform with course options and an instant messenger application."}
@@ -24,6 +25,35 @@ function Portfolio(props) {
         app={"https://grademy.herokuapp.com/"}
         github={"https://github.com/aldare93/grademy"}
       />
+
+      <LImageRText 
+        title={"Photobomb"} 
+        description={"With photobomb, you can save your favorite wallpapers to view later and even send to friends."}
+        img={"/assets/photobomb-screenshot.png"}
+        alt={"Photobomb screenshot"}
+        app={"https://reddituser7777.github.io/PhotoBomb/index.html"}
+        github={"https://reddituser7777.github.io/PhotoBomb"}
+      />
+
+      <RImageLText 
+        title={"Weather Dashboard"} 
+        description={"Search weather conditions for over 250,000 locations with a click of a button. Get real time data and a 5 day forecast."}
+        img={"/assets/weather-dashboard-screenshot.png"}
+        alt={"Weather dasboard screenshot"}
+        app={"https://aldare93.github.io/homework-week-6/"}
+        github={"https://github.com/aldare93/homework-week-6"}
+      />
+
+      <LImageRText 
+        title={"Password Generator"} 
+        description={"Randomly generate a secure password. Select your password criteria to generate a password for all applications."}
+        img={"/assets/password-generator-screenshot.png"}
+        alt={"Password generator screenshot"}
+        app={"https://aldare93.github.io/homework-week-3/"}
+        github={"https://github.com/aldare93/homework-week-3"}
+      />
+      
+
     </div>
   );
 }
